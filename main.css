@@ -1,53 +1,41 @@
 * {
-    margin: 0;
-    padding: 0;
-}
+  margin: 0;
+  padding: 0; }
 
 html {
-    font-size: 16px;
-}
+  font-size: 16px; }
 
 body {
-    width: 100%;
-}
+  width: 100%; }
 
 form {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-top: 10%;
-}
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 10%; }
 
-
-#description{
-    width: 25em;
-    height: 25px;
-}
+#description {
+  width: 25em;
+  height: 25px; }
 
 #value {
-    width: 25em;
-    height: 25px;
-}
+  width: 25em;
+  height: 25px; }
 
 #selectOption {
-    width: 3%;
-}
-.add, .rensa{
-color: green;
-padding: 10px;
-flex-basis: 100%;
-max-width: 60%;
-margin-top: 1.25%
-}
+  width: 3%; }
+
+.add, .rensa {
+  color: green;
+  padding: 10px;
+  flex-basis: 100%;
+  max-width: 60%;
+  margin-top: 1.25%; }
 
 .rensa {
-    color: red;
-}
+  color: #e90c0c; }
 
 .container {
-    margin-top: 5%;
-    text-align: center;
-    text-decoration: underline;
-}
-/** test **/ 
-
+  margin-top: 5%;
+  text-align: center;
+  text-decoration: underline; }

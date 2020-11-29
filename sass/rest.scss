@@ -1,0 +1,30 @@
+#description{
+    width: 25em;
+    height: 25px;
+}
+
+#value {
+    width: 25em;
+    height: 25px;
+}
+
+#selectOption {
+    width: 3%;
+}
+.add, .rensa{
+color: green;
+padding: 10px;
+flex-basis: 100%;
+max-width: 60%;
+margin-top: 1.25%
+}
+
+.rensa {
+    color: rgb(233, 12, 12);
+}
+
+.container {
+    margin-top: 5%;
+    text-align: center;
+    text-decoration: underline;
+}
