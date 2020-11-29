@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Räknesystem</title>
+    <link rel="stylesheet" href="main.css">
+
+    <script src="app.js" defer></script>
+
+</head>
+
+<body>
+
+
+    <form>
+        <select id="selectOption">
+            <option value="+"> + </option>
+            <option value="-"> - </option>
+        </select>
+        <input type="text" id="description" placeholder="Typ av inkomst/utgift">
+        <input type="number" id="value" placeholder="Antal kr">
+
+        <button class="add">Lägg till</button>
+        <button class="rensa">Rensa</button>
+
+    </form>
+
+
+    <section class="container">
+
+    <div class="Vinst">
+        <h2> Vinst/Förlust: </h2>
+
+        <span class="vinstData">
+        </span>
+
+    </div>
+    <br>
+    <br>
+
+    <div class="inkomst">
+        <h2> Inkomst:</h2>
+        <span class="inkomstData">
+        </span>
+
+            <div class="InkomstLista"><br>
+                <h2> Inkomstlista:</h2>
+                <ul class="listaIncome">
+        
+                    <!-- pusha li värde in i ul från js -->
+                </ul>
+
+    </div>
+    <br>
+    <br>
+
+    <div class="kostnad">
+        <h2> Utgift:</h2>
+        <span class="utgiftData">
+        </span>
+
+    </div>
+
+
+    </div>
+
+    <div class="utgiftLista"><br>
+        <h2> Utgiftlista:</h2>
+
+        <ul class="utgiftKostnad">
+            <!-- pusha li värde in i ul från js -->
+        </ul>
+
+    </div>
+
+
+</section>
+
+</body>
+
+</html>
